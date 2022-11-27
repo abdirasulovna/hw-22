@@ -47,7 +47,7 @@ const UsersRender = () => {
       <button onClick={getDataFromServer}>Get Data</button>
       <button onClick={postToServer}>Post Data</button>
       <button onClick={() => deleteDataHandler(users.id)}>Delete Data</button>
-      <h1>Для удаления с UI , обновите страницу!</h1>
+      
       {users.map((data) => {
         return (
           <div key={data.id}>
